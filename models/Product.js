@@ -8,7 +8,7 @@ const productSchema = new mongoose.Schema(
     price: { type: Number, required: true },
     description: { type: String, required: true },
     category: { type: String, required: true },
-    images: [{ type: String }], // För att lagra flera bilder kan du använda en array av strängar
+    images: [{ type: String }],
   },
   { timestamps: true }
 );

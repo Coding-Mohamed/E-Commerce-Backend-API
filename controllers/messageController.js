@@ -9,8 +9,7 @@ exports.sendMessage = async (req, res) => {
       return res.status(400).json({ message: "Bad Request" });
     }
 
-    // Here you would typically save the message to your database
-    // For example:
+    // Create a new message and save it to the database
     const newMessage = new Message({ name, email, message });
     await newMessage.save();
 

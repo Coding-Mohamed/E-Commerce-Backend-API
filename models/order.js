@@ -1,11 +1,9 @@
 // order.js
-// Define Order schema for MongoDB
 
 const mongoose = require("mongoose");
 
+// Define order schema fields (e.g., user ID, products array)
 const orderSchema = new mongoose.Schema({
-  // Define order schema fields (e.g., user ID, products array)
-
   userId: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "User",

@@ -11,26 +11,9 @@ exports.getProducts = async (req, res) => {
     // Send products as JSON response
     res.json(products);
   } catch (error) {
-    // Handle errors
     console.error("Error fetching products:", error);
     res.status(500).json({ error: "Internal server error" });
   }
-
-  // res.send("Get all products");
-
-  // res.json([
-  //   {
-  //     _id: "1",
-  //     name: "Airpods Wireless Bluetooth Headphones",
-  //     image: "/images/airpods.jpg",
-  //     description: "Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working",
-  //     brand: "Apple",
-  //     category: "Electronics",
-  //     price: 89.99,
-  //     countInStock: 10,
-  //     rating: 4.5,
-  //     numReviews: 12,
-  //   },
 };
 
 // Logic to get a product by ID
@@ -69,9 +52,8 @@ exports.addProduct = async (req, res) => {
   }
 };
 
-// Logic to add a new product to the database
+// Logic to update a product in the database
 exports.updateProduct = async (req, res) => {
-  // Logic to update a product in the database
   try {
     const product = await Product.findById(req.params.id);
 

@@ -15,12 +15,13 @@ app.use("/api/messages", messageRoutes);
 app.use("/api/auth", authRoutes);
 app.use("/api/orders", orderRoutes);
 
-// Error handling middleware,
+// Error handling middleware, stopping from server crash
 app.use((err, req, res, next) => {
   console.error(err.stack);
   res.status(500).send({ message: "An error occurred on the server." });
 });
 
+// Connect to database...testing connection
 app.get("/", (req, res) => {
   res.send("Hello World!");
 });
