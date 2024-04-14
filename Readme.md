@@ -7,13 +7,9 @@ This project is a backend API built with Express and Node.js for an e-commerce s
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Environment Variables](#environment-variables)
+  - [what you need](#what you need)
 - [Usage](#usage)
-  - [Running the Server](#running-the-server)
   - [Endpoints](#endpoints)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Features
@@ -34,7 +30,7 @@ This project is a backend API built with Express and Node.js for an e-commerce s
 
 ## Setup
 
-### Prerequisites
+### What you need
 
 - Node.js and npm installed locally
 - MongoDB installed and running locally or as a cloud service (e.g., MongoDB Atlas)
@@ -83,3 +79,7 @@ Orders:
 Message:
 
 - POST /api/message: Create a new message.
+
+# license
+
+- This project is licensed under the MIT License.
