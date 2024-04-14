@@ -7,7 +7,7 @@ This project is a backend API built with Express and Node.js for an e-commerce s
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Setup](#setup)
-  - [what you need](#what you need)
+
 - [Usage](#usage)
   - [Endpoints](#endpoints)
 - [License](#license)
