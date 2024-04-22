@@ -39,7 +39,7 @@ This project is a backend API built with Express and Node.js for an e-commerce s
 1. Clone the repository:
 
    ```bash
-    https://github.com/Coding-Mohamed/Fullstack-Ecommers.git
+    https://github.com/Coding-Mohamed/E-Commerce-Backend-API
    ```
 
 2. Install dependencies:
